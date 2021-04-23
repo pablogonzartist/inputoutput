@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Phase-F';
+    src: url('../fonts/F-100-100-100.woff2') format('woff2'),
+        url('../fonts/F-100-100-100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+  margin: 1.5em;
+  font-family: Phase-F;
+  font-size: 8em;
+
+}
+
+.title {
+    mix-blend-mode: overlay;
+}
+
+
+button{
+  display:flex;
+  font-family: phase-F;
+  align-items:center;
+  justify-content:center;
+  padding: 16px 36px;
+  color:#ffffff;
+  border-radius: 40px;
+  background-color:#000000;
+  font-size: 3em;
+  mix-blend-mode: difference;
+  
+}
+
+
